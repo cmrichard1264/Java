@@ -1,19 +1,10 @@
 package practices;
 
 public class Kahoot {
-public static void main(String[] args) {
+public static void main(int[] args) {
 	
-	// new updates
-	
-	System.out.println("Hello github!");
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	System.out.println("int main");
+
+
 }
 }

@@ -6,18 +6,27 @@ public class Practice {
 
 	public static void main(String[] args) {
 	
+		String a = "abc";
+		String b = "cab";
 		
-		Scanner input = new Scanner(System.in);
+		char[] char1 = a.toCharArray();
+		char[] char2 = b.toCharArray();
 		
-		System.out.println("Enter seconds:");
+		String a1="";
+		String a2="";
 		
-		int inputSeconds = input.nextInt();
-		int hours = input.nextInt();
-		int minutes = input.nextInt();
-		int seconds = input.nextInt();		
-	
+		for(char each: char1) {
+			a1 += each;
+			}
 		
-		System.out.println("Sum of numbers: ");
+		for(char each: char2) {
+			a2 += each;
+		}
+		
+			System.out.println(a1.equals(a2));
+		
+		
+		
 		
 		
 		
