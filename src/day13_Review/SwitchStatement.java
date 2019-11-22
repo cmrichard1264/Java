@@ -11,13 +11,16 @@ public static void main(String[] args) {
 	case 7:
 		System.out.println("Sunday");
 	break;
-	default:
-		System.out.println("Invalid Entry");
-		break;
-		
+	
 	case 5:
 		System.out.println("Friday");
-		break;
+		
+	
+	default:
+		System.out.println("Invalid Entry");
+		
+		
+	
 	}
 	System.out.println("\n");
 	
