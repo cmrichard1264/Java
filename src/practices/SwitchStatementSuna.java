@@ -2,7 +2,7 @@ package practices;
 
 
 
-public class Suna {
+public class SwitchStatementSuna {
 	public static void main(String[] args) {
 		
 	
