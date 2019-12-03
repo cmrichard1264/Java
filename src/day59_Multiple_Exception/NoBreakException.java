@@ -6,3 +6,5 @@ public class NoBreakException extends RuntimeException {
 	System.err.println("Untill end of school");
 }
 }
+
+
