@@ -14,13 +14,13 @@ public class ArrayList_RemoveAhmed {
      
      System.out.println(students);
      
-     students.remove(0);
-     students.remove("Aijamal");
+     students.remove("Bahadir");
+     
      System.out.println(students);
      
      students.removeAll(Arrays.asList("Bahadir"));
-     System.out.println(students);
      
+     System.out.println(students);
      
     
      
