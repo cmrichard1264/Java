@@ -5,13 +5,16 @@ public class TestCustomException {
 	public static void main(String[] args) throws LunchTimeException  {
 		//throw new NoBreakException();
 		//throw new RuntimeException("There is a runtime exception");
-		boolean breakTime = false;
+		boolean breakTime = true;
 		
 		if(breakTime) {
 			throw new NoBreakException();
 		}else {
 			System.out.println("Class dismissed");
 		}
+		
+		
+		System.out.println("Work done");
 		
 		
 		try {
