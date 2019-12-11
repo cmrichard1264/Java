@@ -1,8 +1,6 @@
 package day48_MethodOverRiding;
 
 public class Bank {
-	
-	
 	public void InterestRate() {
 		System.out.println("9 percent");
 	}
@@ -36,3 +34,4 @@ class CapitalOne extends Bank{
 	public void InterestRate() {
 		System.out.println("3%");
 	}}
+

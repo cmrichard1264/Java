@@ -8,7 +8,7 @@ public class Viktoria {
 	int a = 10;   //instance variable;   belongs to the object;    every object has its own copy
 	
 	
-	static int b = 20;   //static variable;  belongs to the class;    no object needed;   only one copy;
+	 int b = 20;   //static variable;  belongs to the class;    no object needed;   only one copy;
 	
 	public static void main(String[] args) {
 		int a = 10;   //local variable
