@@ -71,6 +71,18 @@ public class CollectionsReview {
 
 		SortedSet<Integer> sortedset = new TreeSet<Integer>(lists);
 		System.out.println(sortedset);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	 
 	}
 
 }

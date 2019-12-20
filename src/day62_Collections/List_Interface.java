@@ -47,14 +47,18 @@ public static void main(String[] args) {
 	vt.add(1);
 	
 	Stack<Integer> st = new Stack<>();
-	st.add(1);
+	for(int i = 10; i<=80; i+=10) {
+		st.add(i);
+	}
+	/*st.add(1);
 	st.add(2);
 	st.add(3);
-	st.add(4);
-	st.pop();
+	st.add(4);*/
 	
-	System.out.println(st.pop());
-	System.out.println(st);
+int num =	st.pop();
+	
+	//System.out.println(st.pop());
+	System.out.println(num);
 	
 	
 	
